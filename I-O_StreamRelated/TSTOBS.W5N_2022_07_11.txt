@@ -1,0 +1,13 @@
+Examinee_ID	Examinee_CAMOS	Examinee_DemogFlags	Examiner_ID	TestStemForm	Item_CMSID_Examiner	Item_CMSID_Examinee	Item_Heading	Master_ID	RT	ItemTimeStamp	Response	Score	UPRFlag	QFlag	Assignment_ID	Session_ID	Active
+0N08002	112	MMN9	Examiner04	TSTOBS.W5N	446287399		Examinee Mask	TSTOBS_001	1.867	2022-07-11 08:46:42.413	Yes	1	0	-1	684-10976	2DyHqt_22.07.11	1
+0N08002	112	MMN9	Examiner04	TSTOBS.W5N	446296705		Examiner Mask	TSTOBS_002	2.419	2022-07-11 08:46:42.417	Yes	1	0	-1	684-10976	2DyHqt_22.07.11	1
+0N08002	112	MMN9	Examiner04	TSTOBS.W5N	446264554		Conversational Proficiency	TSTOBS_003	3.810	2022-07-11 08:46:42.417	Limited	0	0	-1	684-10976	2DyHqt_22.07.11	1
+0N08002	112	MMN9	Examiner04	TSTOBS.W5N	446265663		Cooperation	TSTOBS_004	6.001	2022-07-11 08:46:42.417	Was uncooperative at times	0	0	-1	684-10976	2DyHqt_22.07.11	1
+0N08002	112	MMN9	Examiner04	TSTOBS.W5N	446266393		Activity	TSTOBS_005	8.107	2022-07-11 08:46:42.417	Seemed lethargic	2	0	-1	684-10976	2DyHqt_22.07.11	1
+0N08002	112	MMN9	Examiner04	TSTOBS.W5N	446273522		Attention and Concentration	TSTOBS_006	10.028	2022-07-11 08:46:42.417	Displayed good attention throughout	2	0	-1	684-10976	2DyHqt_22.07.11	1
+0N08002	112	MMN9	Examiner04	TSTOBS.W5N	446273822		Self-Confidence	TSTOBS_007	11.869	2022-07-11 08:46:42.417	Appeared at ease and comfortable (typical for age/grade)	1	0	-1	684-10976	2DyHqt_22.07.11	1
+0N08002	112	MMN9	Examiner04	TSTOBS.W5N	446274198		Care in Responding	TSTOBS_008	13.980	2022-07-11 08:46:42.417	Responded deliberately but carefully (typical for age/grade)	1	0	-1	684-10976	2DyHqt_22.07.11	1
+0N08002	112	MMN9	Examiner04	TSTOBS.W5N	446275841		Response to Difficult Items	TSTOBS_009	15.954	2022-07-11 08:46:42.417	Generally persisted on difficult items (typical for age/grade)	1	0	-1	684-10976	2DyHqt_22.07.11	1
+0N08002	112	MMN9	Examiner04	TSTOBS.W5N	446279302		Motivation	TSTOBS_010	17.684	2022-07-11 08:46:42.417	Was generally engaged with tasks (typical for age/grade)	1	0	-1	684-10976	2DyHqt_22.07.11	1
+0N08002	112	MMN9	Examiner04	TSTOBS.W5N	514640583		Fair Estimate	TSTOBS_011	20.139	2022-07-11 08:46:42.417	Yes	1	0	-1	684-10976	2DyHqt_22.07.11	1
+0N08002	112	MMN9	Examiner04	TSTOBS.W5N	514646295		Modifications	TSTOBS_012	20.875	2022-07-11 08:46:42.417	No	0	0	-1	684-10976	2DyHqt_22.07.11	1
