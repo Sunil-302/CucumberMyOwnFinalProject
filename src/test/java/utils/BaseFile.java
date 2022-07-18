@@ -10,6 +10,7 @@ import java.util.Properties;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.DashBoard_Page;
@@ -26,9 +27,11 @@ public class BaseFile {
 	 * HERE=============================================
 	 */
 
-	public static DashBoard_Page dpage = new DashBoard_Page();
-	public static LoginPage_Page lpage = new LoginPage_Page();
-	public static Monster_com_Page mCom = new Monster_com_Page();
+	public static DashBoard_Page dpage ;
+	public static LoginPage_Page lpage ;
+	public static Monster_com_Page mCom ;
+	
+	
 
 	public static WebDriver getDriver() {
 		if (driver == null || driver.equals("")) {
@@ -59,8 +62,11 @@ public class BaseFile {
 				driver.manage().window().maximize();
 			}
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); // i think this is the correct location
-																				// coz when ever a driver is created ,
-																				// this is what w eshould do.
+						
+			
+			mCom = PageFactory.initElements(getDriver(), Monster_com_Page.class);	// coz when ever a driver is created ,
+			dpage = PageFactory.initElements(getDriver(), DashBoard_Page.class);
+			lpage = PageFactory.initElements(getDriver(), LoginPage_Page.class);
 
 		}
 

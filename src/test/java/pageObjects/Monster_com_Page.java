@@ -11,10 +11,7 @@ import utils.BaseFile;
 
 public class Monster_com_Page extends BaseFile {
 
-	public Monster_com_Page() {
-
-		PageFactory.initElements(getDriver(), this);
-	}
+	
 
 	@FindBy(xpath = "//a[contains(@class,\"btn block resume-btn btn\")]")
 	WebElement btnUploadResume;
@@ -36,7 +33,7 @@ public class Monster_com_Page extends BaseFile {
 
 	public void clickOnSelectFileToUploadButton() {
 
-	clickTheButtonByjsExecuterMethod(inpSelectFileToUpload);
+		clickTheButtonByjsExecuterMethod(inpSelectFileToUpload);
 
 	}
 

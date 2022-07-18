@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 18 20:00:40 IST 2022</td>
+<td>Started on:</td><td>Mon Jul 18 20:36:05 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>39 seconds (39894 ms)</td>
+<tr><td>Total time:</td><td>43 seconds (43725 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,61 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='cucumberOptions.testNG_TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.testNG_TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating the upload file by SendKeys method", "I want to check the Upload file Functionality"</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;SUNILS-ASUS&apos;, ip: &apos;192.168.29.150&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {using=xpath, value=//a[contains(@class,&quot;btn block resume-btn btn&quot;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\sunil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1774/devtool..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
-	at pageObjects.Monster_com_Page.clickOnUploadResumeButton(Monster_com_Page.java:27)
-	at stepDefinations.RoboClass.i_will_click_on_upload_resume_button(RoboClass.java:30)
-	at ✽.i will click on Upload Resume button(file:///D:/Software%20Engineer/Selenium%20java/AutomationCucumberFinal/src/test/java/features/RoboClass.feature:30)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1495232387", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1495232387'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;SUNILS-ASUS&apos;, ip: &apos;192.168.29.150&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {using=xpath, value=//a[contains(@class,&quot;btn block resume-btn btn&quot;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\sunil\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1774/devtool..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
-	at pageObjects.Monster_com_Page.clickOnUploadResumeButton(Monster_com_Page.java:27)
-	at stepDefinations.RoboClass.i_will_click_on_upload_resume_button(RoboClass.java:30)
-	at ✽.i will click on Upload Resume button(file:///D:/Software%20Engineer/Selenium%20java/AutomationCucumberFinal/src/test/java/features/RoboClass.feature:30)
-</pre></div></td>
-<td>10</td>
-<td>cucumberOptions.testNG_TestRunner@6743e411</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -131,10 +76,15 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='cucumberOptions.testNG_TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.testNG_TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating the upload file by SendKeys method", "I want to check the Upload file Functionality"</td>
+<td></td>
+<td>16</td>
+<td>cucumberOptions.testNG_TestRunner@3c9754d8</td></tr>
+<tr>
 <td title='cucumberOptions.testNG_TestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.testNG_TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating the upload file by RoboClass MEthod", "I want to check the Upload file Functionality"</td>
 <td></td>
-<td>27</td>
-<td>cucumberOptions.testNG_TestRunner@6743e411</td></tr>
+<td>25</td>
+<td>cucumberOptions.testNG_TestRunner@3c9754d8</td></tr>
 </table><p>
 </body>
 </html>
