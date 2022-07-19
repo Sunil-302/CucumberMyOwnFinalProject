@@ -25,11 +25,11 @@ Feature: I want to check the Upload file Functionality
     And i will click on the SelectFileToUpload button
     Then i will handle to rest with RoboClass
 
-  Scenario: validating the upload file by SendKeys method
-    Given i will be at the monstor.com page   
-    When i will click on Upload Resume button
-    And i using SendKeys method i will upload the file
-    
+  #Scenario: validating the upload file by SendKeys method
+    #Given i will be at the monstor.com page   
+    #When i will click on Upload Resume button
+    #And i using SendKeys method i will upload the file
+    #
 
     
 

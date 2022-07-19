@@ -27,9 +27,10 @@ public class BaseFile {
 	 * HERE=============================================
 	 */
 
-	public static DashBoard_Page dpage ;
-	public static LoginPage_Page lpage ;
-	public static Monster_com_Page mCom ;
+	public static DashBoard_Page dpage;
+	public static LoginPage_Page lpage;
+	public static Monster_com_Page mCom;
+	
 	
 	
 
@@ -62,9 +63,8 @@ public class BaseFile {
 				driver.manage().window().maximize();
 			}
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); // i think this is the correct location
-						
-			
-			mCom = PageFactory.initElements(getDriver(), Monster_com_Page.class);	// coz when ever a driver is created ,
+
+			mCom = PageFactory.initElements(getDriver(), Monster_com_Page.class);
 			dpage = PageFactory.initElements(getDriver(), DashBoard_Page.class);
 			lpage = PageFactory.initElements(getDriver(), LoginPage_Page.class);
 
@@ -84,13 +84,11 @@ public class BaseFile {
 		}
 
 	}
-	
-	public static void clickTheButtonByjsExecuterMethod(WebElement ele) {
-		
-		js = (JavascriptExecutor)getDriver();
-		js.executeScript("arguments[0].click();", ele);
 
-		
+	public static void clickTheButtonByjsExecuterMethod(WebElement ele) {
+
+		js = (JavascriptExecutor) getDriver();
+		js.executeScript("arguments[0].click();", ele);
 
 	}
 

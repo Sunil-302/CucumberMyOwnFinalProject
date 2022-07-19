@@ -13,7 +13,7 @@ import utils.BaseFile;
 
 public class RoboClass extends BaseFile {
 
-	public static  Robot robot;
+	public static Robot robot;
 
 	@Given("i will be at the monstor.com page")
 	public void i_will_be_at_the_monstor_com_page() {
@@ -66,16 +66,14 @@ public class RoboClass extends BaseFile {
 		StringSelection ss = new StringSelection("D:\\Software Engineer\\Path.docx");
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
 
-		 robot.delay(300);
-	        robot.keyPress(KeyEvent.VK_ENTER);
-	        robot.keyRelease(KeyEvent.VK_ENTER);
-	        robot.keyPress(KeyEvent.VK_CONTROL);
-	        robot.keyPress(KeyEvent.VK_V);
-	        robot.keyRelease(KeyEvent.VK_V);
-	        robot.keyRelease(KeyEvent.VK_CONTROL);
-	        robot.keyPress(KeyEvent.VK_ENTER);
-	        robot.delay(200);
-	        robot.keyRelease(KeyEvent.VK_ENTER);
+		robot.delay(300);		
+		robot.keyPress(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.delay(200);
+		robot.keyRelease(KeyEvent.VK_ENTER);
 
 		letsWait(3000);
 
