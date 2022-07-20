@@ -1,0 +1,2 @@
+Assignment_ID	Session_ID	Examinee_ID	Examiner_ID	Note_Created	Note_Modified	Note_Level	Note_Identifier	Note_Text
+684-11090		Child01	Examiner01	2022-07-19 07:34:03.620	2022-07-19 07:34:14.847	Session		Jakh richer says Bye
